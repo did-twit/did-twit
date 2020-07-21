@@ -14,7 +14,7 @@ The name-string identifying this did method is `twitter`.
 
 A DID that uses this method MUST begin with the following prefix: `did:twitter`. This string MUST be in lowercase.
 
-The remainder of a DID after the prefix – the unique DID suffix — MUST be a valid Twitter username.
+The remainder of a DID after the prefix — the unique DID suffix — MUST be a valid Twitter username.
 
 Example: `did:twitter:god`
 
