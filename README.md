@@ -4,6 +4,10 @@ The Twitter DID method is an implementation of the [DID Core Specification](http
 
 Twitter DIDs are distinguishable from other DID methods as they tie into an existing social media account, and often contain human-readable identifiers.
 
+## Spec
+
+View the [spec here](spec/index.md).
+
 ## CLI
 
 The DID Twitter Organization has created a CLI to facilitate simple generation, update, and deactivation of `did:twitter` documents. The CLI may further be expanded to hook into the [Twitter API](https://developer.twitter.com/en/docs/tweets/post-and-engage/overview) for DID management and resolution.
