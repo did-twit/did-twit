@@ -1,6 +1,6 @@
-# Twitter DID
+# Twit DID
 
-The Twitter DID method is an implementation of the [DID Core Specification](https://w3c.github.io/did-core/) that relies upon [Twitter](https://twitter.com/) as a means of partial trust and resolution.
+The Twit DID method is an implementation of the [DID Core Specification](https://w3c.github.io/did-core/) that relies upon [Twitter](https://twitter.com/) as a means of partial trust and resolution.
 
 Twitter DIDs are distinguishable from other DID methods as they tie into an existing social media account, and often contain human-readable identifiers.
 
