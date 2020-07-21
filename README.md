@@ -10,7 +10,7 @@ View the [spec here](spec/index.md).
 
 ## CLI
 
-The DID Twitter Organization has created a CLI to facilitate simple generation, update, and deactivation of `did:twitter` documents. The CLI may further be expanded to hook into the [Twitter API](https://developer.twitter.com/en/docs/tweets/post-and-engage/overview) for DID management and resolution.
+The DID Twitter Organization has created a CLI to facilitate simple generation, update, and deactivation of `did:twit` documents. The CLI may further be expanded to hook into the [Twitter API](https://developer.twitter.com/en/docs/tweets/post-and-engage/overview) for DID management and resolution.
 
 ## Contributing
 
