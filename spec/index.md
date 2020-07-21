@@ -6,7 +6,7 @@ Twitter is a highly used and influential social media network that lacks decentr
 
 The method leverages Linked Data Signatures without the use of a decentralized ledger or independently run trust store, and instead, relies upon the existing Twitter platform.
 
-The objective of Twitter DID, similar to that of the [GitHub DID Method](https://github.com/decentralized-identity/github-did,  is to encourage use of the [DID Spec](https://w3c-ccg.github.io/did-spec/), by lowering the barrier to entry for use of the technology, and promote higher trust interactions.
+The objective of Twitter DID, similar to that of the [GitHub DID Method](https://github.com/decentralized-identity/github-did),  is to encourage use of the [DID Spec](https://w3c-ccg.github.io/did-spec/), by lowering the barrier to entry for use of the technology, and promote higher trust interactions.
 
 ## Method syntax
 
