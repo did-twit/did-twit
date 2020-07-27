@@ -48,7 +48,18 @@ Deactivation communicates to those who encounter a user's DID that it is not int
 
 In order to delete a DID Document, a Twitter MUST delete all Tweets pertaining to their `did:twitter` Document. For historical purposes, a user may wish to _deactivate_ but not _delete_. Deactivation is a form up update that removes all keys from a document leaving it in a terminal state.
 
+## Twitter Concerns
+
+Twitters character limits make using this method a pretty terrible user experience. 
+- Create Tweets have an approximate length of 850 characters
+- Tweets of length 240 have proofs of around 600 characters
+
+This means for each _unsigned_ tweet its _signed_ counterpart is often over 3x the size.
+
+A potential workaround is to use 3rd party storage for recording Tweet signatures and periodically signing over a set of Tweet identifiers to prove ownership. Of course, out-of-band challenges for Tweet authenticity can be issued at any time. 
+
 ## Security and privacy considerations
 
 This method relies on trusting Twitter for authenticating updates to a DID Document. Users MUST use Linked Data Signatures via the `proof` field of their DID Document for strong verifiable cryptographic proofing.
+
 Users interacting with `did:twitter` users should challenge DID Holders for authenticity frequently.
