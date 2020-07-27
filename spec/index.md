@@ -61,9 +61,5 @@ A potential workaround is to use 3rd party storage for recording Tweet signature
 ## Security and privacy considerations
 
 This method relies on trusting Twitter for authenticating updates to a DID Document. Users MUST use Linked Data Signatures via the `proof` field of their DID Document for strong verifiable cryptographic proofing.
-<<<<<<< HEAD
 
 Users interacting with `did:twitter` users should challenge DID Holders for authenticity frequently.
-=======
-Users interacting with `did:twit` users should challenge DID Holders for authenticity frequently.
->>>>>>> 2ec15fd4c30352332329ce75612e570e05897dd6
